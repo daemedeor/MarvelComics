@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D053E54227FBF99700E412F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D053E54127FBF99700E412F3 /* AppDelegate.swift */; };
+		D053E54427FBF99700E412F3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D053E54327FBF99700E412F3 /* SceneDelegate.swift */; };
+		D053E54627FBF99700E412F3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D053E54527FBF99700E412F3 /* ViewController.swift */; };
+		D053E54927FBF99700E412F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D053E54727FBF99700E412F3 /* Main.storyboard */; };
+		D053E54B27FBF99900E412F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D053E54A27FBF99900E412F3 /* Assets.xcassets */; };
+		D053E54E27FBF99900E412F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D053E54C27FBF99900E412F3 /* LaunchScreen.storyboard */; };
+		D053E55927FBF99900E412F3 /* KingtakWongDisneyCruiseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D053E55827FBF99900E412F3 /* KingtakWongDisneyCruiseTests.swift */; };
+		D053E56327FBF99900E412F3 /* KingtakWongDisneyCruiseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D053E56227FBF99900E412F3 /* KingtakWongDisneyCruiseUITests.swift */; };
+		D053E56527FBF99900E412F3 /* KingtakWongDisneyCruiseUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D053E56427FBF99900E412F3 /* KingtakWongDisneyCruiseUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D053E55527FBF99900E412F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D053E53627FBF99700E412F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D053E53D27FBF99700E412F3;
+			remoteInfo = KingtakWongDisneyCruise;
+		};
+		D053E55F27FBF99900E412F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D053E53627FBF99700E412F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D053E53D27FBF99700E412F3;
+			remoteInfo = KingtakWongDisneyCruise;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D053E53E27FBF99700E412F3 /* KingtakWongDisneyCruise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KingtakWongDisneyCruise.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D053E54127FBF99700E412F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D053E54327FBF99700E412F3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D053E54527FBF99700E412F3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D053E54827FBF99700E412F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D053E54A27FBF99900E412F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D053E54D27FBF99900E412F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D053E54F27FBF99900E412F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D053E55427FBF99900E412F3 /* KingtakWongDisneyCruiseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KingtakWongDisneyCruiseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D053E55827FBF99900E412F3 /* KingtakWongDisneyCruiseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KingtakWongDisneyCruiseTests.swift; sourceTree = "<group>"; };
+		D053E55E27FBF99900E412F3 /* KingtakWongDisneyCruiseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KingtakWongDisneyCruiseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D053E56227FBF99900E412F3 /* KingtakWongDisneyCruiseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KingtakWongDisneyCruiseUITests.swift; sourceTree = "<group>"; };
+		D053E56427FBF99900E412F3 /* KingtakWongDisneyCruiseUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KingtakWongDisneyCruiseUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D053E53B27FBF99700E412F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D053E55127FBF99900E412F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D053E55B27FBF99900E412F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D053E53527FBF99700E412F3 = {
+			isa = PBXGroup;
+			children = (
+				D053E54027FBF99700E412F3 /* KingtakWongDisneyCruise */,
+				D053E55727FBF99900E412F3 /* KingtakWongDisneyCruiseTests */,
+				D053E56127FBF99900E412F3 /* KingtakWongDisneyCruiseUITests */,
+				D053E53F27FBF99700E412F3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D053E53F27FBF99700E412F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D053E53E27FBF99700E412F3 /* KingtakWongDisneyCruise.app */,
+				D053E55427FBF99900E412F3 /* KingtakWongDisneyCruiseTests.xctest */,
+				D053E55E27FBF99900E412F3 /* KingtakWongDisneyCruiseUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D053E54027FBF99700E412F3 /* KingtakWongDisneyCruise */ = {
+			isa = PBXGroup;
+			children = (
+				D053E54127FBF99700E412F3 /* AppDelegate.swift */,
+				D053E54327FBF99700E412F3 /* SceneDelegate.swift */,
+				D053E54527FBF99700E412F3 /* ViewController.swift */,
+				D053E54727FBF99700E412F3 /* Main.storyboard */,
+				D053E54A27FBF99900E412F3 /* Assets.xcassets */,
+				D053E54C27FBF99900E412F3 /* LaunchScreen.storyboard */,
+				D053E54F27FBF99900E412F3 /* Info.plist */,
+			);
+			path = KingtakWongDisneyCruise;
+			sourceTree = "<group>";
+		};
+		D053E55727FBF99900E412F3 /* KingtakWongDisneyCruiseTests */ = {
+			isa = PBXGroup;
+			children = (
+				D053E55827FBF99900E412F3 /* KingtakWongDisneyCruiseTests.swift */,
+			);
+			path = KingtakWongDisneyCruiseTests;
+			sourceTree = "<group>";
+		};
+		D053E56127FBF99900E412F3 /* KingtakWongDisneyCruiseUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D053E56227FBF99900E412F3 /* KingtakWongDisneyCruiseUITests.swift */,
+				D053E56427FBF99900E412F3 /* KingtakWongDisneyCruiseUITestsLaunchTests.swift */,
+			);
+			path = KingtakWongDisneyCruiseUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D053E53D27FBF99700E412F3 /* KingtakWongDisneyCruise */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D053E56827FBF99900E412F3 /* Build configuration list for PBXNativeTarget "KingtakWongDisneyCruise" */;
+			buildPhases = (
+				D053E53A27FBF99700E412F3 /* Sources */,
+				D053E53B27FBF99700E412F3 /* Frameworks */,
+				D053E53C27FBF99700E412F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KingtakWongDisneyCruise;
+			productName = KingtakWongDisneyCruise;
+			productReference = D053E53E27FBF99700E412F3 /* KingtakWongDisneyCruise.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D053E55327FBF99900E412F3 /* KingtakWongDisneyCruiseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D053E56B27FBF99900E412F3 /* Build configuration list for PBXNativeTarget "KingtakWongDisneyCruiseTests" */;
+			buildPhases = (
+				D053E55027FBF99900E412F3 /* Sources */,
+				D053E55127FBF99900E412F3 /* Frameworks */,
+				D053E55227FBF99900E412F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D053E55627FBF99900E412F3 /* PBXTargetDependency */,
+			);
+			name = KingtakWongDisneyCruiseTests;
+			productName = KingtakWongDisneyCruiseTests;
+			productReference = D053E55427FBF99900E412F3 /* KingtakWongDisneyCruiseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D053E55D27FBF99900E412F3 /* KingtakWongDisneyCruiseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D053E56E27FBF99900E412F3 /* Build configuration list for PBXNativeTarget "KingtakWongDisneyCruiseUITests" */;
+			buildPhases = (
+				D053E55A27FBF99900E412F3 /* Sources */,
+				D053E55B27FBF99900E412F3 /* Frameworks */,
+				D053E55C27FBF99900E412F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D053E56027FBF99900E412F3 /* PBXTargetDependency */,
+			);
+			name = KingtakWongDisneyCruiseUITests;
+			productName = KingtakWongDisneyCruiseUITests;
+			productReference = D053E55E27FBF99900E412F3 /* KingtakWongDisneyCruiseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D053E53627FBF99700E412F3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					D053E53D27FBF99700E412F3 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					D053E55327FBF99900E412F3 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = D053E53D27FBF99700E412F3;
+					};
+					D053E55D27FBF99900E412F3 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = D053E53D27FBF99700E412F3;
+					};
+				};
+			};
+			buildConfigurationList = D053E53927FBF99700E412F3 /* Build configuration list for PBXProject "KingtakWongDisneyCruise" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D053E53527FBF99700E412F3;
+			productRefGroup = D053E53F27FBF99700E412F3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D053E53D27FBF99700E412F3 /* KingtakWongDisneyCruise */,
+				D053E55327FBF99900E412F3 /* KingtakWongDisneyCruiseTests */,
+				D053E55D27FBF99900E412F3 /* KingtakWongDisneyCruiseUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D053E53C27FBF99700E412F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D053E54E27FBF99900E412F3 /* LaunchScreen.storyboard in Resources */,
+				D053E54B27FBF99900E412F3 /* Assets.xcassets in Resources */,
+				D053E54927FBF99700E412F3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D053E55227FBF99900E412F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D053E55C27FBF99900E412F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D053E53A27FBF99700E412F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D053E54627FBF99700E412F3 /* ViewController.swift in Sources */,
+				D053E54227FBF99700E412F3 /* AppDelegate.swift in Sources */,
+				D053E54427FBF99700E412F3 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D053E55027FBF99900E412F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D053E55927FBF99900E412F3 /* KingtakWongDisneyCruiseTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D053E55A27FBF99900E412F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D053E56527FBF99900E412F3 /* KingtakWongDisneyCruiseUITestsLaunchTests.swift in Sources */,
+				D053E56327FBF99900E412F3 /* KingtakWongDisneyCruiseUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D053E55627FBF99900E412F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D053E53D27FBF99700E412F3 /* KingtakWongDisneyCruise */;
+			targetProxy = D053E55527FBF99900E412F3 /* PBXContainerItemProxy */;
+		};
+		D053E56027FBF99900E412F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D053E53D27FBF99700E412F3 /* KingtakWongDisneyCruise */;
+			targetProxy = D053E55F27FBF99900E412F3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D053E54727FBF99700E412F3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D053E54827FBF99700E412F3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D053E54C27FBF99900E412F3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D053E54D27FBF99900E412F3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D053E56627FBF99900E412F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D053E56727FBF99900E412F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D053E56927FBF99900E412F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2EWRQ5X7K7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KingtakWongDisneyCruise/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = us.kingtak.KingtakWongDisneyCruise;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D053E56A27FBF99900E412F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2EWRQ5X7K7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KingtakWongDisneyCruise/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = us.kingtak.KingtakWongDisneyCruise;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D053E56C27FBF99900E412F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2EWRQ5X7K7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = us.kingtak.KingtakWongDisneyCruiseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KingtakWongDisneyCruise.app/KingtakWongDisneyCruise";
+			};
+			name = Debug;
+		};
+		D053E56D27FBF99900E412F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2EWRQ5X7K7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = us.kingtak.KingtakWongDisneyCruiseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KingtakWongDisneyCruise.app/KingtakWongDisneyCruise";
+			};
+			name = Release;
+		};
+		D053E56F27FBF99900E412F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2EWRQ5X7K7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = us.kingtak.KingtakWongDisneyCruiseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KingtakWongDisneyCruise;
+			};
+			name = Debug;
+		};
+		D053E57027FBF99900E412F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2EWRQ5X7K7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = us.kingtak.KingtakWongDisneyCruiseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KingtakWongDisneyCruise;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D053E53927FBF99700E412F3 /* Build configuration list for PBXProject "KingtakWongDisneyCruise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D053E56627FBF99900E412F3 /* Debug */,
+				D053E56727FBF99900E412F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D053E56827FBF99900E412F3 /* Build configuration list for PBXNativeTarget "KingtakWongDisneyCruise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D053E56927FBF99900E412F3 /* Debug */,
+				D053E56A27FBF99900E412F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D053E56B27FBF99900E412F3 /* Build configuration list for PBXNativeTarget "KingtakWongDisneyCruiseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D053E56C27FBF99900E412F3 /* Debug */,
+				D053E56D27FBF99900E412F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D053E56E27FBF99900E412F3 /* Build configuration list for PBXNativeTarget "KingtakWongDisneyCruiseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D053E56F27FBF99900E412F3 /* Debug */,
+				D053E57027FBF99900E412F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D053E53627FBF99700E412F3 /* Project object */;
+}
